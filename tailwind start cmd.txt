@@ -1,0 +1,45 @@
+npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
+
+*****************vite start cmd***************
+npm create vite@latest
+
+***********tailwind with vite**********
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+***********in tailwind file*************
+ content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+*****************index.css*****************
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+..... to install the react router....
+npm i react-router-dom
+
+
+
+************ protected router cmd and reduce redirect ************************
+
+************Formik and Yup install*************
+npm istall Formik
+npm install Yup
+
+***********React Redux install cmd**************
+npm install @reduxjs/toolkit react-redux
+
+************* appwrite*************************
+npm i appwrite
+npm install --save @tinymce/tinymce-react
+npm i html-react-parser
+npm i react-hook-form
+
+
+/**********************youtube use form***************/
+https://youtu.be/muFtLs4Ngis?si=NsK2SXUC_v_9mO1e
+
+/******************401 unauthorized user***************/
+https://chat.openai.com/share/df750f85-3e65-4216-bd1a-5ec7a8929bab
